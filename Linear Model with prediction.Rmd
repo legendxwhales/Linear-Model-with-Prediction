@@ -83,7 +83,7 @@ model.1 <- lm(SIMS ~ ARM, data = data)
 summary(model.1)
 ```
 
-
+The formula for getting model2 is: formula = -5.433871 + 0.037311*ARM + 0.24470*GRIP
 
 
 
