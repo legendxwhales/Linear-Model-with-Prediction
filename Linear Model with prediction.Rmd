@@ -29,7 +29,12 @@ basicNN + geom_point() + ggtitle("SIMS vs ARM") + theme(plot.title = element_tex
 cor(data$SIMS, data$ARM)
 ```
 
+### Inferential Results
 
+```{r}
+model.1 <- lm(SIMS ~ ARM, data = data)
+summary(model.1)
+```
 
 
 
