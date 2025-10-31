@@ -99,3 +99,4 @@ predict(model.1,target,interval=c("prediction"))
 anova(model.1)
 ```
 
+Our P-value was 0.000004994 which is very small. Which tells us that model2 is better than model1 in a significant difference.
